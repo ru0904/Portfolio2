@@ -1,0 +1,132 @@
+body {
+    background-color:white;
+    header {
+      color: #fff4a2;
+      background-color: #da8bff;
+      display: flex;
+    h1{
+      font-size: 50px;
+      margin-left: 100px;
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        margin-left: 550px;
+        margin-top: auto;
+        margin-bottom: auto;
+      }
+    li{
+        margin-right: 100px;
+    }
+    }
+    main{
+      display: block;
+    h1{
+      font-size: 50px;
+      padding-top: 50px;
+      padding-left: 45%;
+      padding-bottom: 50px;
+    }
+    .maimai {
+      background-color: #ffe1ff;
+      margin-top: 50px;
+      margin-left: 20%;
+      margin-right: 20%;
+      width: 1000px;
+      height: 600px;
+      .photo {
+        padding-top: 5%;
+        margin-left: 25%;
+        margin-bottom: 15%;
+        .textblock {
+          display: flex;
+          padding-left: 30%;
+          flex-direction: column-reverse;
+          flex-wrap: nowrap;
+          justify-content: space-evenly;
+          align-items: stretch;
+        }
+      }
+    }
+    .RIDE {
+      background: #e1d0ff;
+      margin-top: 50px;
+      margin-left: 20%;
+      margin-right: 20%;
+      width: 1000px;
+      height: 600px;
+      .photo {
+        padding-top: 5%;
+        margin-left: 25%;
+        margin-bottom: 15%;
+        .textblock {
+          display: flex;
+          padding-left: 30%;
+          flex-direction: column-reverse;
+          flex-wrap: nowrap;
+          justify-content: space-evenly;
+          align-items: stretch;
+        }
+      }
+    }
+    h1{
+      font-size: 50px;
+      margin-top: 100px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .rectangle {
+      margin-top: 100px;
+      margin-left: 20%;
+      margin-right: 20%;
+      width: 1000px;
+      height: 500px;
+      background: #faa2ff;
+    }
+    h3{
+      font-size: 40px;
+      margin-left: 5%;
+      color: white;
+    }
+    h4{
+      font-size: 35px;
+      margin-left: 25%;
+      margin-right: 16%;
+      color: white;
+    }
+    h5{
+      font-size: 25px;
+      margin-left: 10%;
+      margin-right: 16%;
+      color: white;
+    }
+    h1{
+      font-size: 50px;
+      margin-top: 100px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .syasin{
+      margin-top: 100px;
+      margin-left: 20%;
+      margin-right: 20%;
+      width: 300px;
+      height: 400px;
+      background: #f7b8f8;
+    }
+    .photo {
+      padding-top: 15%;
+      margin-left: 10%;
+      margin-bottom: 15%;
+    }
+    .textblock {
+      margin: auto;
+      margin-left: 40px;
+      margin-right: 40px;
+    }      
+    p{
+      font-size: 20px;
+      margin-left: 50%;
+    } 
+  }
+}
