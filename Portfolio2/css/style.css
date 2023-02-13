@@ -9,6 +9,7 @@ body header {
   display: flex;
 }
 body header h1 {
+  font-family: cursive;
   font-size: 50px;
   margin-left: 100px;
 }
@@ -27,13 +28,16 @@ body header li {
 body main {
   display: block;
 }
-body main h1 {
+body main h2 {
   font-size: 50px;
   padding-top: 50px;
   padding-left: 45%;
   padding-bottom: 50px;
 }
 body main .maimai {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background-color: #ffe1ff;
   margin-top: 50px;
   margin-left: 20%;
@@ -42,15 +46,13 @@ body main .maimai {
   height: 600px;
 }
 body main .maimai .photo {
-  padding-top: 5%;
-  margin-left: 25%;
+  padding-top: 15%;
+  margin-left: 10%;
   margin-bottom: 15%;
 }
-body main .maimai .photo .textblock {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-left: 30%;
+body main .maimai dl {
+  padding-top: 15%;
+  padding-left: 10%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: reverse;
       -ms-flex-direction: column-reverse;
@@ -64,7 +66,17 @@ body main .maimai .photo .textblock {
       -ms-flex-align: stretch;
           align-items: stretch;
 }
+body main .maimai dl dt {
+  font-size: 30px;
+  padding-bottom: 10%;
+}
+body main .maimai dl dd {
+  font-size: 25px;
+}
 body main .RIDE {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   background: #e1d0ff;
   margin-top: 50px;
   margin-left: 20%;
@@ -72,16 +84,9 @@ body main .RIDE {
   width: 1000px;
   height: 600px;
 }
-body main .RIDE .photo {
-  padding-top: 5%;
-  margin-left: 25%;
-  margin-bottom: 15%;
-}
-body main .RIDE .photo .textblock {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-left: 30%;
+body main .RIDE dl {
+  padding-top: 15%;
+  padding-left: 10%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: reverse;
       -ms-flex-direction: column-reverse;
@@ -95,44 +100,57 @@ body main .RIDE .photo .textblock {
       -ms-flex-align: stretch;
           align-items: stretch;
 }
-body main h1 {
-  font-size: 50px;
-  margin-top: 100px;
-  margin-left: auto;
-  margin-right: auto;
+body main .RIDE dl dt {
+  font-size: 30px;
+}
+body main .RIDE dl dd {
+  font-size: 25px;
 }
 body main .rectangle {
-  margin-top: 100px;
   margin-left: 20%;
   margin-right: 20%;
   width: 1000px;
-  height: 500px;
+  height: 550px;
   background: #faa2ff;
 }
-body main h3 {
-  font-size: 40px;
-  margin-left: 5%;
+body main .rectangle dl {
+  padding-top: 15px;
+  padding-left: 5%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: column-reverse;
+          flex-direction: column-reverse;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+body main .rectangle dl dt {
+  font-size: 35px;
+  margin-left: 15%;
+  margin-right: 16%;
   color: white;
 }
-body main h4 {
-  font-size: 35px;
+body main .rectangle dl dd {
+  font-size: 25px;
   margin-left: 25%;
   margin-right: 16%;
   color: white;
 }
-body main h5 {
-  font-size: 25px;
-  margin-left: 10%;
-  margin-right: 16%;
-  color: white;
-}
-body main h1 {
+body main h2 {
   font-size: 50px;
   margin-top: 100px;
   margin-left: auto;
   margin-right: auto;
 }
 body main .syasin {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   margin-top: 100px;
   margin-left: 20%;
   margin-right: 20%;
@@ -145,12 +163,24 @@ body main .photo {
   margin-left: 10%;
   margin-bottom: 15%;
 }
-body main .textblock {
+body main dl dd {
   margin: auto;
-  margin-left: 40px;
-  margin-right: 40px;
-}
-body main p {
   font-size: 20px;
-  margin-left: 50%;
+}
+body footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff4a2;
+  background-color: #da8bff;
+  margin-top: 20px;
+  height: 100px;
+}
+body ul {
+  font-family: cursive;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  margin: auto;
 }
