@@ -428,6 +428,11 @@ body main .RIDE {
   width: 1000px;
   height: 600px;
 }
+body main .RIDE .photo {
+  padding-top: 15%;
+  margin-left: 10%;
+  margin-bottom: 15%;
+}
 body main .RIDE dl {
   padding-top: 15%;
   padding-left: 10%;
